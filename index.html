@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- material icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="images/logo.png" alt="img">
+                    <h2>فروشگاه</h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">grid_view</span>
+                    <h3>داشبورد</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">person_outline</span>
+                    <h3>مشتریان</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">receipt_long</span>
+                    <h3>سفارشات</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">insights</span>
+                    <h3>تحلیل</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">mail_outline</span>
+                    <h3>پیغام ها</h3>
+                    <span class="message-count">26</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">inventory</span>
+                    <h3>محصولات</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">report_gmailerrorred</span>
+                    <h3>گزارشات</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">settings</span>
+                    <h3>تنظیمات</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">add</span>
+                    <h3>افزودن محصولات</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">logout</span>
+                    <h3>خروج</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- main -->
+        <main>
+            <h1>داشبورد</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+            <div class="insights">
+                <div class="sales">
+                    <span class="material-icons-sharp">analytics</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>مجموع فروش</h3>
+                            <h1>300میلیون</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="45" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">در 24 ساعت گذشته</small>
+                </div>
+                <!-- =========end of sales======== -->
+                <div class="expenses">
+                    <span class="material-icons-sharp">bar_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>مجموع هزینه ها</h3>
+                            <h1>200میلیون</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="45" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>43%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">در 24 ساعت گذشته</small>
+                </div>
+                <!-- =========end of expenses======== -->
+                <div class="income">
+                    <span class="material-icons-sharp">stacked_line_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>درآمد کلی</h3>
+                            <h1>100میلیون</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="45" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>50%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">در 24 ساعت گذشته</small>
+                </div>
+                <!-- =========end of income======== -->
+            </div>
+                <div class="recent-orders">
+                    <h2>سفارشات اخیر</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>نام محصول</th>
+                                <th>شماره محصول</th>
+                                <th>وجه</th>
+                                <th>وضعیت</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>sumsung galaxy note9</td>
+                                <td>256314</td>
+                                <td>قابل پرداخت</td>
+                                <td class="warning">در انتظار</td>
+                                <td class="primary">جزییات </td>
+                            </tr>
+                            <tr>
+                                <td>sumsung galaxy note9</td>
+                                <td>256314</td>
+                                <td>قابل پرداخت</td>
+                                <td class="warning">در انتظار</td>
+                                <td class="primary">جزییات </td>
+                            </tr>
+                            <tr>
+                                <td>sumsung galaxy note9</td>
+                                <td>256314</td>
+                                <td>قابل پرداخت</td>
+                                <td class="warning">در انتظار</td>
+                                <td class="primary">جزییات </td>
+                            </tr>
+                            <tr>
+                                <td>sumsung galaxy note9</td>
+                                <td>256314</td>
+                                <td>قابل پرداخت</td>
+                                <td class="warning">در انتظار</td>
+                                <td class="primary">جزییات </td>
+                            </tr>
+                            <tr>
+                                <td>sumsung galaxy note9</td>
+                                <td>256314</td>
+                                <td>قابل پرداخت</td>
+                                <td class="warning">در انتظار</td>
+                                <td class="primary">جزییات </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="#">نمایش همه</a>
+                </div>
+        </main>
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn" ><span class="material-icons-sharp">menu</span></button>
+                <div class="theme-toggler">
+                    <span class="material-icons-sharp active">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>سلام،<b>مهدی</b></p>
+                        <small class="text-muted">ادمین</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="images/profile-1.jpg" alt="profile">
+                    </div>
+                </div>
+            </div>
+            <!-- end of top -->
+            <div class="recent-updates">
+              <h2>آپدیت های اخیر</h2>  
+              <div class="updates">
+                <div class="update">
+                    <div class="profile-photo">
+                        <img src="images/profile-2.jpg" alt="profile">
+                    </div>
+                    <div class="message">
+                        <p><b>رضا قنبری</b> محصول موبایل خود را دریافت کرد</p>
+                        <small class="text-muted">2 دقیقه پیش</small>
+                    </div>
+                </div>
+                <div class="update">
+                    <div class="profile-photo">
+                        <img src="images/profile-3.jpg" alt="profile">
+                    </div>
+                    <div class="message">
+                        <p><b>رضا قنبری</b> محصول موبایل خود را دریافت کرد</p>
+                        <small class="text-muted">2 دقیقه پیش</small>
+                    </div>
+                </div>
+                <div class="update">
+                    <div class="profile-photo">
+                        <img src="images/profile-4.jpg" alt="profile">
+                    </div>
+                    <div class="message">
+                        <p><b>رضا قنبری</b> محصول موبایل خود را دریافت کرد</p>
+                        <small class="text-muted">2 دقیقه پیش</small>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="sales-analytics">
+                <h2>تجزیه و تحلیل فروش</h2>
+                    <div class="item online">
+                            <div class="icon">
+                            <span class="material-icons-sharp">shopping_cart</span>
+                            </div>
+                        <div class="left">
+                            <div class="info">
+                                <h3>سفارشات آنلاین</h3>
+                                <small class="text-muted">24 ساعت گذشته</small>
+                            </div>
+                            <h5 class="success">+39%</h5>
+                            <h3>3258</h3>
+                        </div>
+                </div>
+                <div class="item onffine">
+                        <div class="icon">
+                        <span class="material-icons-sharp">local_mall</span>
+                        </div>
+                    <div class="left">
+                        <div class="info">
+                            <h3>سفارشات آفلاین</h3>
+                            <small class="text-muted">24 ساعت گذشته</small>
+                        </div>
+                        <h5 class="danger">-59%</h5>
+                        <h3>3258</h3>
+                    </div>
+                </div>
+                <div class="item customers">
+                    <div class="icon">
+                    <span class="material-icons-sharp">person</span>
+                    </div>
+                <div class="left">
+                    <div class="info">
+                        <h3>مشتریان جدید</h3>
+                        <small class="text-muted">24 ساعت گذشته</small>
+                    </div>
+                    <h5 class="danger">+29%</h5>
+                    <h3>333</h3>
+                </div>
+
+            </div>
+                            <div class="item add-product">
+                    <div>
+                        <span class="material-icons-sharp">add</span>
+                        <h3>اضافه کردن محصول</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
